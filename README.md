@@ -1,4 +1,4 @@
-# asiaam191-nametbd
+# asiaam-191a-la-heat-disparities
 
 ## What social problem is being addressed?
 The urban heat island effect in Los Angeles
