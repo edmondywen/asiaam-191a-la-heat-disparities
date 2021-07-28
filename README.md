@@ -1,7 +1,7 @@
 # asiaam-191a-la-heat-disparities
 
 ## What social problem is being addressed?
-The urban heat island effect in Los Angeles
+At a macro level, the urban heat island effect in Los Angeles. At a micro level, this project attempts to understand how residents in Little Tokyo deal with heat in their neighborhood. 
 
 ## Who is being empowered by your mapplication?
 Communities who are disproportionately impacted by the urban heat island effect, namely low-income and communities of color.
