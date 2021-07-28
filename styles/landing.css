@@ -1,0 +1,28 @@
+body{
+    display: grid;
+    grid-template-rows: calc(100px + 20vh) 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "top" "bottom";
+    font-family: "Georgia";
+}
+
+p{
+    font-size: calc(10px + 0.8vw);
+}
+
+#top-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: top;
+}
+
+#title-text{
+    font-size: calc(25px + 0.8vw);
+    margin: 1px;
+}
+
+#button-area{
+    grid-area: bottom;
+}

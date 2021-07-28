@@ -1,1 +1,0 @@
-const myMap = L.map('mapArea').setView([34.0709, -118.444], 5);
