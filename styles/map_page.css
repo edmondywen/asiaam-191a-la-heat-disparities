@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+body{
+    display: grid;
+    grid-template-columns: .5fr .5fr;
+    grid-template-areas: "mappanel sidepanel";
+    font-family: "Ropa Sans";
+}
+
+#mapArea{
+    height: 80vh;
+    grid-area: mappanel;
+}
+
+#contents{
+    display: grid;
+    grid-area: sidepanel;
+}

@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
 body{
     display: grid;
-    grid-template-rows: calc(100px + 20vh) 1fr;
+    grid-template-rows: calc(100px + 50vh) 1fr;
     grid-template-columns: 1fr;
     grid-template-areas: "top" "bottom";
-    font-family: "Georgia";
+    font-family: "Ropa Sans";
+    /* background-color: #222233; */
 }
 
 p{
-    font-size: calc(10px + 0.8vw);
+    font-size: calc(20px + 0.8vw);
+    /* color: #AACCFF; */
+    opacity: 87%;
 }
 
 #top-area{
@@ -19,10 +24,26 @@ p{
 }
 
 #title-text{
-    font-size: calc(25px + 0.8vw);
+    font-size: calc(40px + 0.8vw);
     margin: 1px;
 }
 
-#button-area{
+#bottom-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     grid-area: bottom;
+}
+
+.nav-button{
+    background-color: #ededed;
+    border-color: black;
+    border: 1px solid;
+    /* color: #121212;
+    opacity: 87%; */
+    font-family: "Ropa Sans";
+    font-size: calc(20px + 0.8vw);
+    letter-spacing: 0.05rem;
+    font-weight: bold;
+    cursor: pointer;
 }
