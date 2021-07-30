@@ -36,6 +36,7 @@ h1{
     font-size: calc(20px + 0.8vw);
 }
 
+/* bug: height of map can look weird when changing view height */
 #mapArea{
     /* display: flex;
     justify-content: center; */
