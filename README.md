@@ -8,9 +8,15 @@ Communities who are disproportionately impacted by the urban heat island effect,
 
 ## What technical and ethical problems could there be in developing this tool?
 - Technical
-    - How to feasibly phrase our research questions (ex: how do you ask someone how "shady" their neighborhood is) 
-    - In order to create a comprehensive analysis of conditions across LA, we would need to cast a wide net and survey a large number of people of all backgrounds   which is quite the task
+    - How to elicit heat stories from Little Tokyo residents. It might be difficult to recollect a story or a memory of dealing with heat through just the survey
+    - Collecting stories from a diverse group of Little Tokyo residents. We want to cast a wide net and gather stories form all demographics living in Little Tokyo and not exclude any particular group from participation. 
 
 - Ethical 
     - Privacy: Our study could potentially involve personally identifying information like income, address, and ethnicity
     - Must not minimize people's concerns. There will be some qualitative/subjective input from users regarding their personal situations. We need to properly represent those perspectives 
+
+## Technology used for this project
+TBD
+
+## How others could use this in the future
+The user stories gathered from this mapplication can be a critical data point for several community-based projects, including decision-making made by politicians, urban planners, local business development, and so on. 
