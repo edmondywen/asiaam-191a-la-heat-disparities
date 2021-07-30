@@ -68,6 +68,7 @@ h1{
 
 #slideimg{
     /* object-fit: contain; */
+    max-width: 500px;
     max-height: 300px;
 }
 
@@ -82,5 +83,11 @@ h1{
 button{
     width: calc(150px + 0.4vw);
     height: calc(20px + 0.4vw);
+    background-color: #ededed;
+    border-color: black;
+    border: 1px solid;
+    font-family: "Ropa Sans";
+    letter-spacing: 0.05rem;
+    font-weight: bold;
+    cursor: pointer;
 }
-
