@@ -81,7 +81,7 @@ function updateContent(data){
         image.src = "images/bliss.jpeg";
     }
     text.innerHTML = '"' + story.favoriteplace + '"';
-
+    // myMap.flyTo([story.lat, story.lng]);
 }
 
 
