@@ -1,8 +1,5 @@
 const myMap = L.map('mapArea').setView([34.050328, -118.243279], 14);
 const url = "https://spreadsheets.google.com/feeds/list/1efuxzpx0k9ZMFdM5_gxS9qlOSSh9a1zy7rBR_NtB1lA/othhvsm/public/values?alt=json"
-const doc = "js/gdoc.json"
-
-console.log(doc)
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -56,28 +53,26 @@ function exploreNew(){
         return response.json()
     })
     .then(data => {
-        console.log(data)
         return formatData(data)
     })
     .then(cleanData => {
         updateContent(cleanData)
     })
-
-    // console.log("exploring")
 }
 
 function updateContent(data){
-    //1) make sure only stories from entries that gave permission are used
+    let locName = document.getElementById("locationName");
+    let image = document.getElementById("slideimg");
+    let text = document.getElementById("locationStory");
+    
+    //1) make sure only stories from entries that gave permission are used. don't show same story
+    //BUG: i think there are still some consecutive repeats being shown because locName.innerHTML isn't what I expect sometimes but this seems to mostly work?
     let story = data[getRandomInt(0, data.length)];
-    while (story.storypermission == "No"){
+    while (story.storypermission == "No" && locName.innerHTML == story.location){
         story = data[getRandomInt(0, data.length)];
     }
 
     //2) grab elements and update
-    let locName = document.getElementById("locationName");
-    let image = document.getElementById("slideimg");
-    let text = document.getElementById("locationStory");
-
     locName.innerHTML = story.location;
     if (story.link != ""){
         image.src = story.link;
