@@ -34,6 +34,22 @@ Google Forms
 - collect stories from users 
 
 ## Features 
+### Landing Page
+Easily choose what you want to do from the get go 
+![image](https://user-images.githubusercontent.com/71907436/127755544-5f9e4010-56d4-4166-b3d8-dd422ea4cc52.png)
+
+### Add Stories
+- Do so from either the landing page or the main page. You will be taken to a google form
+- Your story will have a chance of popping up in the explore area. You can also refresh the page to see your marker show up. 
+![image](https://user-images.githubusercontent.com/71907436/127755564-f5522a05-7764-4db1-a9f1-185e6eb8be1e.png)
+
+### View User Stories
+- explore different locations and their corresponding stories with the "Explore New Location" button 
+![image](https://user-images.githubusercontent.com/71907436/127755493-881383f0-47c6-4bb6-8f08-fea8340efe34.png)
+
+- check out different locations on the interactive map
+![image](https://user-images.githubusercontent.com/71907436/127755503-30319b2d-d355-4442-a6ce-63f952a34d03.png)
+
 
 ## How others could use this in the future
 The user stories gathered from this mapplication can be a critical data point for several community-based projects, including decision-making made by politicians, urban planners, local business development, and so on. 
