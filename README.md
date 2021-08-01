@@ -19,20 +19,21 @@ Communities who are disproportionately impacted by the urban heat island effect,
 
 ## Technology used for this project
 Leaflet (open source mapping appliction)
-    - create interactive map 
-    - add submitted locations to the map for users to see
+- create interactive map 
+- add submitted locations to the map for users to see
 
 Javascript
-    - update information on the website in response to user input
-    - controls location exploration feature
+- update information on the website in response to user input
+- controls location exploration feature
 
 Google Sheets 
-    - used to store and organize data 
-    - scripts to process data
+- used to store and organize data 
+- scripts to process data
 
 Google Forms
-    - collect stories from users 
+- collect stories from users 
 
+## Features 
 
 ## How others could use this in the future
 The user stories gathered from this mapplication can be a critical data point for several community-based projects, including decision-making made by politicians, urban planners, local business development, and so on. 
