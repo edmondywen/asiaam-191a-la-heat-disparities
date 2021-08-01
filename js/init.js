@@ -27,7 +27,7 @@ function formatData(theData){
 function addMarker(data){
     // console.log(data)
     // these are the names of our lat/long fields in the google sheets:
-    L.marker([data.lat,data.lng]).addTo(myMap).bindPopup(`<h2>${data.location}</h2>`)
+    L.marker([data.lat,data.lng]).addTo(myMap).bindPopup(`<h2>${data.location}</h2>` + `<p>${data.favoriteplace}</p>`)
     return data.timestamp
 }
 
