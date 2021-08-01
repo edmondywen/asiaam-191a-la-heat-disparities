@@ -1,12 +1,16 @@
 # asiaam-191a-la-heat-disparities
 
-NOTE: this website looks best on firefox. chrome issues are being addressed!
+NOTE: this website looks best on Firefox. Chrome issues are being addressed!
 
-## What social problem is being addressed?
-At a macro level, the urban heat island effect in Los Angeles. At a micro level, this project attempts to understand how residents in Little Tokyo deal with heat in their neighborhood. 
+## Table of Contents
+* [Objective](#objective)
+* [Technology used for this project](#technology-used-for-this-project)
+* [Features](#features)
+* [How others could use this in the future](#how-others-could-use-this-in-the-future)
 
-## Who is being empowered by your mapplication?
-Communities who are disproportionately impacted by the urban heat island effect, namely low-income and communities of color.
+## Objective
+- At a macro level, the urban heat island effect in Los Angeles. At a micro level, this project attempts to understand how residents in Little Tokyo deal with heat in their neighborhood. 
+- We aim to empower the residents of Little Tokyo to share their lived experiences related to heat in their neighborhood. 
 
 ## What technical and ethical problems could there be in developing this tool?
 - Technical
@@ -50,6 +54,5 @@ Easily choose what you want to do from the get go
 - check out different locations on the interactive map
 ![image](https://user-images.githubusercontent.com/71907436/127755503-30319b2d-d355-4442-a6ce-63f952a34d03.png)
 
-
 ## How others could use this in the future
-The user stories gathered from this mapplication can be a critical data point for several community-based projects, including decision-making made by politicians, urban planners, local business development, and so on. 
+The user stories gathered from this mapplication can be a critical data point for several community-based projects, including decision-making made by politicians, urban planners, local business development, and so on. Our documentation on GitHub, an open source platform, allows community members to view our prototype and get involved or make a derivative project utilizing the program elements we've documented (e.g. code, survey questions).
