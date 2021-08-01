@@ -1,4 +1,4 @@
-const myMap = L.map('mapArea').setView([34.050328, -118.243279], 14);
+const myMap = L.map('mapArea').setView([34.050328, -118.243279], 15);
 const url = "https://spreadsheets.google.com/feeds/list/1efuxzpx0k9ZMFdM5_gxS9qlOSSh9a1zy7rBR_NtB1lA/othhvsm/public/values?alt=json"
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

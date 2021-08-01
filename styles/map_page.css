@@ -10,10 +10,16 @@ body{
 
 #header{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     grid-area: top;
     font-size: calc(40px + 0.8vw);
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
 }
 
 /* LEFT PANEL PROPERTIES */

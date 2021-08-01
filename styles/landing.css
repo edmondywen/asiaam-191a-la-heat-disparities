@@ -46,9 +46,14 @@ p{
     letter-spacing: 0.05rem;
     font-weight: bold;
     cursor: pointer;
-    margin-right: calc(100px + 0.8vw);
+    margin-right: calc(50px + 0.8vw);
+    margin-left: calc(50px + 0.8vw);
 }
 
 button:hover{
     background-color: #cbcbcb;
+}
+
+button:active{
+    background-color: #808080;
 }
